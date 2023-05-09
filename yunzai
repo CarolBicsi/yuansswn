@@ -1,0 +1,88 @@
+# 是否自动同意加好友 1-同意 0-不处理
+autoFriend: 0
+# 是否自动退群人数，当被好友拉进群时，群人数小于配置值自动退出， 默认50，0则不处理
+autoQuit: 50
+# 主人QQ号
+masterQQ:
+  - 2572769996
+
+# 禁用私聊功能 true：私聊只接受ck以及抽卡链接（Bot主人不受限制），false：私聊可以触发全部指令，默认false
+disablePrivate: false
+# 禁用私聊Bot提示内容
+disableMsg: "私聊功能已禁用，仅支持发送cookie，抽卡记录链接，记录日志文件"
+# 私聊通行字符串
+disableAdopt:
+  - stoken
+#白名单群，配置后只在该群生效
+whiteGroup: []
+
+#黑名单群
+blackGroup:
+  - 213938015
+#黑名单qq
+blackQQ:
+  - 528952540
+
+# qq账号
+qq: 3452721283
+# 密码，为空则用扫码登录,扫码登录现在仅能在同一ip下进行
+pwd: '147258369Y'
+# 1:安卓手机、 2:aPad 、 3:安卓手表、 4:MacOS 、 5:iPad
+platform: 6
+# redis地址
+host: 127.0.0.1
+# redis端口
+port: 6379 
+# redis密码，没有密码可以为空    
+password: 
+# redis数据库    
+db: 0
+
+
+# 日志等级:trace,debug,info,warn,fatal,mark,error,off
+# mark时只显示执行命令，不显示聊天记录
+log_level: info
+# 群聊和频道中过滤自己的消息
+ignore_self: true
+# 被风控时是否尝试用分片发送
+resend: false
+# ffmpeg
+ffmpeg_path: D:\ffmpeg\bin\ffmpeg.exe
+ffprobe_path: D:\ffmpeg\bin\ffprobe.exe
+
+# chromium其他路径
+chromium_path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+# 米游社接口代理地址，国际服用
+proxyAddress:
+
+# 上线时给首个主人QQ推送帮助
+online_msg: true
+# 上线推送通知的冷却时间
+online_msg_exp: "86400"
+
+"123456":
+  groupCD: 500
+  singleCD: 2000
+"582169626":
+  enable: null
+default:
+  groupCD: 500
+  singleCD: 2000
+  onlyReplyAt: 0
+  botAlias:
+    - 云崽
+    - 云宝
+  imgAddLimit: 0
+  imgMaxSize: 2
+  addPrivate: 1
+  enable: null
+  disable:
+    - 禁用示例
+    - 支持多个
+
+# IYUU(https://iyuu.cn/)
+iyuu:
+
+# Server酱(https://sct.ftqq.com/)
+sct:
